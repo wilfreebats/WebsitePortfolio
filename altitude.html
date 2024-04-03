@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Now</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">My Portfolio</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html">About</a></li>
+          <!-- <li><a href="#experience">Experience</a></li> -->
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contacts.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Wilfredo Batucan</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html" onclick="toggleMenu()">About</a></li>
+          <!-- <li><a href="#experience" onclick="toggleMenu()">Experience</a></li> -->
+          <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="contacts.html" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+   
+    <section id="about">
+      <h1 class="title">Altitude</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/appicon/Altitude.png"
+            alt="Profile picture"
+            class="about-pic"
+            style="border: 1px solid #555;"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="text-container">
+            <p>
+              <b>Elevate Your Adventures, Measure with Confidence.</b>
+            </p>
+            <br/>
+            <p>
+                Your essential tool for outdoor adventures and weather monitoring. Accurately measure altitude and atmospheric pressure with precision, ensuring you're always prepared for changing conditions. Whether hiking, climbing, or simply exploring, trust our app to provide reliable data for your safety and enjoyment. 
+
+              <br/>
+              <br/>
+
+              I made this app so I could experiment with some of the iPhone's built-in sensors, such the altimeter. I deal with the atmospheric pressure and altitude using the CoreMotion framework.
+            </p>
+            <br/>
+            <p>
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section id="projects">
+      <h1 class="title">How it Works 📱</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/appscreenshot/Altitude/01_Alt.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <br/>
+            <div class="text-container">
+              <p>View current altitude with ease.</p>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/appscreenshot/Altitude/02_Alt.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <br/>
+            <div class="text-container">
+              <p>Get in touch with barometer.</p>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/appscreenshot/Altitude/03_Alt.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <br/>
+            <div class="text-container">
+              <p>More information delivery.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section id="experience">
+      <h1 class="title">Technologies 👨🏻‍💻 </h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Swift</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SwiftUI</h3>
+                </div>
+              </article>
+              
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frameworks</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SwiftUI</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CoreMotion</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CoreLocation</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="index.html">About</a></li>
+            <!-- <li><a href="#experience">Experience</a></li> -->
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Wilfredo Batucan. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

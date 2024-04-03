@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Now</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">My Portfolio</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html">About</a></li>
+          <!-- <li><a href="#experience">Experience</a></li> -->
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contacts.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Wilfredo Batucan</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html" onclick="toggleMenu()">About</a></li>
+          <!-- <li><a href="#experience" onclick="toggleMenu()">Experience</a></li> -->
+          <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="contacts.html" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+   
+    <section id="about">
+      <h1 class="title">Spends</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/appicon/SPENDS.png"
+            alt="Profile picture"
+            class="about-pic"
+            style="border: 1px solid #555;"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="text-container">
+            <p>
+              <b>Empower Your Wallet, Track Every Penny.</b>
+            </p>
+            <br/>
+            <p>
+              Welcome to Spends - your ultimate financial companion. Effortlessly monitor your spending, set budgets, and achieve financial goals with ease. 
+              With insightful reports and user-friendly interfaces, staying on top of your finances has never been simpler. 
+
+              <br/>
+              <br/>
+
+              This app was designed to serve as a platform for me to learn and implement new iOS technologies as they become available from Apple. It makes use of the Swift Charts API, SwiftUI, Core Data, and other features.
+            </p>
+            <br/>
+            <p>
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section id="projects">
+      <h1 class="title">How it Works 📱</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/appscreenshot/Spends/01_Spends.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <br/>
+            <div class="text-container">
+              <p>This is to see all of your expenses. It also includes a search function.</p>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/appscreenshot/Spends/02_Spends.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <br/>
+            <div class="text-container">
+              <p>You can add new goods and other information here, such as the value, description, and date.</p>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/appscreenshot/Spends/03_Spends.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <br/>
+            <div class="text-container">
+              <p>You may see your expense statistics with bar charts, and your most expensive things.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section id="experience">
+      <h1 class="title">Technologies 👨🏻‍💻 </h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Swift</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SwiftUI</h3>
+                </div>
+              </article>
+              
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frameworks</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SwiftUI</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CoreData</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Charts</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="index.html">About</a></li>
+            <!-- <li><a href="#experience">Experience</a></li> -->
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Wilfredo Batucan. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
